@@ -3,10 +3,425 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Olexander Huber - Mechanical Engineering Student</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Portfolio</h1>
-    <p>This is a simple portfolio page hosted on GitHub Pages.</p>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <span class="nav-logo">⚙</span>
+                <span>Olexander Huber</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="engineering-bg"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Olexander Huber</h1>
+                <h2 class="hero-subtitle">Mechanical Engineering Student</h2>
+                <p class="hero-details">Wayne State University - Junior Year - 3.48 GPA</p>
+                <p class="hero-summary">Junior Standing Mechanical Engineer with hands-on experience in prototyping and Arduino programming, complemented by leadership skills from a team lead role.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn--primary btn--lg">Get In Touch</a>
+                    <a href="#projects" class="btn btn--outline btn--lg">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3.48</span>
+                        <span class="stat-label">GPA</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Major Projects</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro">Passionate about applying engineering principles in manufacturing settings, focusing on process improvements optimization. Ready to contribute technical documentation skills and problem-solving mindset to engineering teams.</p>
+                        
+                        <div class="about-focus">
+                            <h3>Environmental Commitment</h3>
+                            <p>Deeply passionate about environmental sustainability and ensuring process optimization leads to positive environmental outcomes. I believe engineering solutions should balance efficiency with ecological responsibility.</p>
+                        </div>
+                        
+                        <div class="about-focus">
+                            <h3>Future Vision</h3>
+                            <p>I foresee myself working extensively with additive manufacturing technologies, combining sustainable design principles with innovative production methods to create solutions for tomorrow's challenges.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="card highlight-card">
+                        <div class="card__body">
+                            <h3>Core Strengths</h3>
+                            <ul class="strengths-list">
+                                <li>Problem-Solving Mindset</li>
+                                <li>Technical Documentation</li>
+                                <li>Process Optimization</li>
+                                <li>Team Leadership</li>
+                                <li>Environmental Consciousness</li>
+                                <li>Continuous Learning</li>            
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="experience-timeline">
+                <!-- Education -->
+                <div class="card timeline-card timeline-card--education">
+                    <div class="timeline-marker">
+                        <span class="timeline-icon">school</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="timeline-header">
+                            <h3>Wayne State University</h3>
+                            <span class="timeline-period">2022 - 2027</span>
+                        </div>
+                        <p class="timeline-role">Bachelor of Science - Mechanical Engineering</p>
+                        <div class="timeline-details">
+                            <span class="status status--success">3.48 GPA</span>
+                            <span class="status status--info">Junior Standing</span>
+                        </div>
+                        
+                        <div class="coursework-section">
+                            <h4>Engineering Coursework</h4>
+                            <div class="coursework-grid">
+                                <span class="coursework-tag">Thermodynamics</span>
+                                <span class="coursework-tag">Mechanics of Materials</span>
+                                <span class="coursework-tag">Statics</span>
+                                <span class="coursework-tag">Fluid Dynamics</span>
+                                <span class="coursework-tag">Materials Science Lab</span>
+                                <span class="coursework-tag">MATLAB Computation</span>
+                                <span class="coursework-tag">Arduino Programming</span>
+                                <span class="coursework-tag">Computational Methods</span>
+                                <span class="coursework-tag">Dynamics of Fluids & Materials</span>\
+                            </div>
+                        </div>
+                        
+                        <div class="achievements-section">
+                            <h4>Key Achievements</h4>
+                            <ul class="achievement-list">
+                                <li>Presented Arduino-based engineering project at College Fair with Dean and faculty attendance</li>
+                                <li>Gained hands-on materials science lab experience (creep, cold work, diffraction, molecular modeling)</li>
+                                <li>Self-directed CAD software learning (Fusion 360, GD&T)</li>
+                                <li>International Baccalaureate Diploma graduate</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Work Experience -->
+                <div class="card timeline-card timeline-card--work">
+                    <div class="timeline-marker">
+                        <span class="timeline-icon">Work</span>
+                    </div>
+                    <div class="card__body">
+                        <div class="timeline-header">
+                            <h3>Panera Bread</h3>
+                            <span class="timeline-period">Nov 2023 - Present</span>
+                        </div>
+                        <p class="timeline-role">Team Lead</p>
+                        <p class="timeline-location">Warren, Michigan</p>
+                        
+                        <div class="achievements-section">
+                            <h4>Leadership & Process Optimization</h4>
+                            <ul class="achievement-list">
+                                <li>Train new employees on process optimization techniques and quality control standards</li>
+                                <li>Manage bi-weekly inventory operations from truck deliveries, improving material flow efficiency</li>
+                                <li>Focus on team collaboration and process improvement methodologies</li>
+                                <li>Declined management promotion to pursue engineering career path and maintain academic focus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="projects-background">
+            <div class="gears-pattern"></div>
+        </div>
+        <div class="container">
+            <h2 class="section-title">Engineering Projects</h2>
+            <div class="projects-grid">
+                <!-- Venduino Project -->
+                <div class="card project-card project-card--featured">
+                    <div class="project-header">
+                        <div class="project-badge">Featured Project</div>
+                    </div>
+                    <div class="card__body">
+                        <h3 class="project-title">Venduino: Arduino-Controlled Vending Machine</h3>
+                        <p class="project-subtitle">Embedded Systems & Automation</p>
+                        <p class="project-description">
+                            Designed and programmed an Arduino-based automated vending machine, integrating embedded systems to process payments and dispense products. Utilized C++ for Arduino, enabling real-time user input recognition and digital signal processing. Conducted mechanical prototyping for component integration, ensuring a functional and durable system design.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag tech-tag--programming">Arduino C++</span>
+                            <span class="tech-tag tech-tag--hardware">Embedded Systems</span>
+                            <span class="tech-tag tech-tag--processing">Digital Signal Processing</span>
+                            <span class="tech-tag tech-tag--design">Mechanical Prototyping</span>
+                        </div>
+                        <div class="project-impact">
+                    
+                            <div class="impact-content">
+                                <strong>Impact:</strong> Presented at Wayne State University's Engineering Fair, receiving feedback from the Dean of Engineering and faculty. Demonstrated integration of software and hardware systems.
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://waynestateprod-my.sharepoint.com/:b:/g/personal/hk9816_wayne_edu/Edk7wtlLEsNFldX7i8ie47MBgj9iwDzdwQTm8SzORe3aYA?e=lY6iXa" target="_blank" class="btn btn--primary btn--sm">View Project Poster</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rankine Cycle Project -->
+                <div class="card project-card">
+                    <div class="card__body">
+                        <h3 class="project-title">Rankine Cycle Thermal Analysis</h3>
+                        <p class="project-subtitle">Thermodynamic Performance Optimization</p>
+                        <p class="project-description">
+                            Used Excel to model a Rankine cycle on a Temperature vs Entropy graph. Identified efficiency losses across system stages and proposed system-level design improvements to enhance thermal performance. Applied thermodynamic concepts and steam tables to determine enthalpy and entropy changes, mass flow rate, and heat transfer losses.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag tech-tag--software">Excel Modeling</span>
+                            <span class="tech-tag tech-tag--analysis">Steam Tables</span>
+                            <span class="tech-tag tech-tag--theory">Thermodynamic Analysis</span>
+                            <span class="tech-tag tech-tag--optimization">Process Optimization</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-content">
+                                <strong>Impact:</strong> Wrote detailed lab report documenting findings in a professional manner. Proposed design modifications to enhance thermal performance and applied thermodynamic principles to real-world systems.
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://waynestateprod-my.sharepoint.com/:w:/g/personal/hk9816_wayne_edu/EUqkh_FwbPNOvVYbazGS2AAB729wcEChu63iHDAFgNrfPA?e=llVuSt" target="_blank" class="btn btn--primary btn--sm">Read Full Report</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Composting System Project -->
+                <div class="card project-card">
+                    <div class="card__body">
+                        <h3 class="project-title">Sustainable Composting System</h3>
+                        <p class="project-subtitle">Eco-Friendly Mechanical Design</p>
+                        <p class="project-description">
+                            Designed and built a compact, horizontal rotating composting bucket using Fusion 360 and upcycled materials for sustainable home use. Engineered an ergonomic hand crank for easy mixing, improving user comfort and compost aeration. Developed hands-on skills in prototyping, iterative design, and sustainable DIY solutions.
+                        </p>
+                        <div class="project-technologies">
+                            <span class="tech-tag tech-tag--cad">Fusion 360</span>
+                            <span class="tech-tag tech-tag--design">3D Modeling</span>
+                            <span class="tech-tag tech-tag--sustainability">Sustainable Design</span>
+                            <span class="tech-tag tech-tag--prototyping">Iterative Prototyping</span>
+                        </div>
+                        <div class="project-impact">
+                            <div class="impact-content">
+                                <strong>Impact:</strong> Successfully integrated mechanical design principles with environmental sustainability. Demonstrates commitment to environmental engineering and circular economy principles.
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://waynestateprod-my.sharepoint.com/:w:/g/personal/hk9816_wayne_edu/Ebfruwe6l_1KmlWm6KkAGPAB33VN4rSMydVISHU3QAAxQw?e=cAikja" target="_blank" class="btn btn--primary btn--sm">View Project Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Programming & Software -->
+<div class="card skill-category">
+  <div class="card__body">
+    <h3 class="skill-title">Programming & Software</h3>
+    <ul class="skill-list">
+      <li>MATLAB Programming</li>
+      <li>Arduino C++ Development</li>
+      <li>Excel Data Analysis</li>
+      <li>Microsoft Office Suite</li>
+    </ul>
+  </div>
+</div>
+
+<!-- CAD & Modeling -->
+<div class="card skill-category">
+  <div class="card__body">
+    <h3 class="skill-title">CAD & Modeling</h3>
+    <ul class="skill-list">
+      <li>Fusion 360 CAD Modeling</li>
+      <li>GD&T Blueprint Reading</li>
+      <li>3D Modeling</li>
+      <li>3D Printing Workflow</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Engineering & Analysis -->
+<div class="card skill-category">
+  <div class="card__body">
+    <h3 class="skill-title">Engineering & Analysis</h3>
+    <ul class="skill-list">
+      <li>Process Optimization</li>
+      <li>Materials Science</li>
+      <li>Thermodynamic Analysis</li>
+      <li>System Integration</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Leadership & Management -->
+<div class="card skill-category">
+  <div class="card__body">
+    <h3 class="skill-title">Leadership & Management</h3>
+    <ul class="skill-list">
+      <li>Team Training & Development</li>
+      <li>Quality Control Systems</li>
+      <li>Project Management</li>
+      <li>Inventory Optimization</li>
+    </ul>
+  </div>
+</div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-intro">
+                    <p>I'm actively seeking mechanical engineering opportunities and internships. Let's connect to discuss how my skills in process optimization, Arduino programming, and sustainable design can contribute to your engineering team.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <a href="mailto:lesykhuber+career@gmail.com">lesykhuber+career@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <a href="tel:+12485613866">+1 (248) 561-3866</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>LinkedIn</h3>
+                                <a href="https://linkedin.com/in/olexander-huber" target="_blank">linkedin.com/in/olexander-huber</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-details">
+                                <h3>Location</h3>
+                                <p>Warren, Michigan</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-container">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Send a Message</h3>
+                                <form class="contact-form">
+                                    <div class="form-group">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" id="name" name="name" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" id="email" name="email" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="subject" class="form-label">Subject</label>
+                                        <select id="subject" name="subject" class="form-control" required>
+                                            <option value="">Select a topic</option>
+                                            <option value="internship">Internship Opportunity</option>
+                                            <option value="full-time">Full-time Position</option>
+                                            <option value="project">Project Collaboration</option>
+                                            <option value="general">General Inquiry</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Olexander Huber</h3>
+                    <p>Building tomorrow's engineering solutions through innovation and hands-on problem-solving.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-copyright">
+                    <p>&copy; 2025 Olexander Huber. Future Mechanical Engineer.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 </html>
